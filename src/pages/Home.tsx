@@ -101,18 +101,18 @@ export default function Home({ onNavigate }: HomeProps) {
 
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full pt-16 lg:pt-32">
           <div className="max-w-3xl mx-auto lg:mx-0 text-center lg:text-left">
-            <ScrollReveal direction="up" delay={100} duration={0.8}>
-              <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-6xl font text-[#f1f5f9] mb-4 sm:mb-6 leading-tight">
-                Launch your brand online <br className="hidden sm:block" />
-                <span className="bg-gradient-to-r from-[#22d3ee] via-[#0ea5e9] to-[#5391f5] bg-clip-text text-transparent">
-                  with a website built to
-                </span>
-                <br className="hidden sm:block" />
-                <span className="text-[#f1f5f9]">
-                  convert & scale.
-                </span>
-              </h1>
-            </ScrollReveal>
+<ScrollReveal direction="up" delay={100} duration={0.8}>
+  <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-6xl font text-[#f1f5f9] mb-4 sm:mb-6 leading-tight">
+    Launch your brand online <br className="hidden sm:block" />
+    <span className="text-[#f1f5f9]">
+      with a website built to
+    </span>
+    <br className="hidden sm:block" />
+    <span className="text-[#f1f5f9]">
+      convert & scale.
+    </span>
+  </h1>
+</ScrollReveal>
 
             <ScrollReveal direction="up" delay={200} duration={0.8}>
               <p className="text-base sm:text-lg md:text-xl text-[#abbcd4] mb-6 sm:mb-10 max-w-2xl mx-auto lg:mx-0 leading-relaxed px-4 sm:px-0">
