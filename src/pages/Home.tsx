@@ -105,7 +105,7 @@ export default function Home({ onNavigate }: HomeProps) {
   <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-6xl font text-[#f1f5f9] mb-4 sm:mb-6 leading-tight">
     Launch your brand online <br className="hidden sm:block" />
     <span className="text-[#f1f5f9]">
-      with a website built to
+      with a website built to 
     </span>
     <br className="hidden sm:block" />
     <span className="text-[#f1f5f9]">
