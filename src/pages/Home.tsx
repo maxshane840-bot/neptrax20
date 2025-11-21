@@ -218,8 +218,6 @@ export default function Home({ onNavigate }: HomeProps) {
               ))}
             </div>
           </div>
-        </div>
-      </section>
 
           {/* Second Row - 2 Cards Centered */}
           <div className="flex justify-center">
