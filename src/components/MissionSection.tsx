@@ -322,7 +322,7 @@ export default function MissionSection() {
           <ScrollReveal direction="left" delay={0} depth={2}>
             <div className="relative">
               <img 
-                src="public/about.png" 
+                src="/about.png" 
                 alt="About Neptrax" 
                 className="w-full h-auto rounded-2xl" 
               />
