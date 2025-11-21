@@ -201,7 +201,7 @@ export default function Home({ onNavigate }: HomeProps) {
           </ScrollReveal>
 
           {/* First Row - 3 Cards */}
-          <div className="flex justify-center">
+          <div className="flex justify-center mb-6 sm:mb-8">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6 max-w-3xl">
               {clients.slice(0, 3).map((client, index) => (
                 <ScrollReveal key={index} direction="up" delay={index * 100} duration={0.6}>
