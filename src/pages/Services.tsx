@@ -276,7 +276,7 @@ export default function Services({ onNavigate }: ServicesProps) {
             {/* Main image container with glass effect */}
             <div className="relative overflow-hidden rounded-4xl glass-card border border-white/10 bg-[#333333]/50 backdrop-blur-sm">
               <img
-                src="public/pic.png"
+                src="/pic.png"
                 alt="Website development demo"
                 className="w-full h-[500px] object-cover"
               />
@@ -359,7 +359,7 @@ export default function Services({ onNavigate }: ServicesProps) {
             {/* Main image container with glass effect */}
             <div className="relative overflow-hidden rounded-3xl glass-card border border-white/10 bg-[#333333]/50 backdrop-blur-sm">
               <img
-                src="public/ai.png"
+                src="/ai.png"
                 alt="AI Chatbot demo"
                 className="w-full h-[500px] object-cover"
               />
