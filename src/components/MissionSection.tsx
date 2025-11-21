@@ -123,28 +123,28 @@ export default function MissionSection() {
 
               {/* REPLACED: Ultra-Premium Glass Gradient Version */}
               <div className="grid grid-cols-2 gap-6">
-<ScrollReveal direction="zoom" delay={300}>
-  <div className="
-    relative rounded-2xl p-6 text-center overflow-hidden
-    backdrop-blur-sm md:backdrop-blur-2xl bg-white/5
-    border border-white/20
-    transition-all duration-500
-    hover:scale-[1.02] md:hover:scale-[1.04] hover:shadow-[0_0_20px_rgba(80,70,255,0.3)] md:hover:shadow-[0_0_40px_rgba(80,70,255,0.5)]
-  ">
-    {/* Glossy overlay */}
-    <div className="absolute inset-0 bg-gradient-to-br from-white/20 via-transparent to-white/10 opacity-30 md:opacity-40 pointer-events-none"></div>
+                <ScrollReveal direction="zoom" delay={300}>
+                  <div className="
+  relative rounded-2xl p-6 text-center overflow-hidden
+  backdrop-blur-2xl bg-white/5
+  border border-white/20
+  transition-all duration-500
+  hover:scale-[1.04] hover:shadow-[0_0_40px_rgba(80,70,255,0.5)]
+">
+                    {/* Glossy overlay */}
+                    <div className="absolute inset-0 bg-gradient-to-br from-white/30 via-transparent to-white/10 opacity-40 pointer-events-none"></div>
 
-    {/* Mobile-optimized glow layer */}
-    <div className="absolute -inset-[1px] rounded-2xl bg-gradient-to-br from-[#2563eb]/20 to-[#8b5cf6]/20 blur-md md:blur-2xl opacity-30 md:opacity-60"></div>
+                    {/* Subtle glow layer */}
+                    <div className="absolute -inset-[1px] rounded-2xl bg-gradient-to-br from-[#2563eb]/25 to-[#8b5cf6]/25 blur-4xl opacity-60"></div>
 
-    <div className="relative z-10">
-      <div className="font-['inter'] text-3xl md:text-4xl font-extrabold bg-gradient-to-r from-[#3b82f6] via-[#6366f1] to-[#8b5cf6] bg-clip-text text-transparent mb-2">
-        97%
-      </div>
-      <div className="text-[#cbd5e1] text-xs md:text-sm tracking-wide">Client Retention</div>
-    </div>
-  </div>
-</ScrollReveal>
+                    <div className="relative z-10">
+                      <div className="font-['inter'] text-4xl font-extrabold bg-gradient-to-r from-[#3b82f6] via-[#6366f1] to-[#8b5cf6] bg-clip-text text-transparent mb-2">
+                        97%
+                      </div>
+                      <div className="text-[#cbd5e1] text-sm tracking-wide">Client Retention</div>
+                    </div>
+                  </div>
+                </ScrollReveal>
 
                 <ScrollReveal direction="zoom" delay={400}>
                   <div className="
