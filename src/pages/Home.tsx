@@ -200,25 +200,6 @@ export default function Home({ onNavigate }: HomeProps) {
             </p>
           </ScrollReveal>
 
-          {/* Second Row - 2 Cards Centered */}
-          <div className="flex justify-center">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 max-w-3xl">
-              {clients.slice(3).map((client, index) => (
-                <ScrollReveal key={index + 3} direction="up" delay={(index + 3) * 100} duration={0.6}>
-                  <AnimatedCard
-                    index={index + 3}
-                    hoverEffect="lift"
-                    className="rounded-2xl p-4 sm:p-6 shadow-[0_4px_20px_rgba(0,0,0,0.2)] h-full border border-[#334155] hover:border-[#2563eb] neon-glow"
-                  >
-                    <client.icon className="text-[#2563eb] mb-3 sm:mb-4" size={isMobile ? 24 : 32} />
-                    <h3 className="text-lg sm:text-xl font-bold text-[#f1f5f9] mb-2">{client.title}</h3>
-                    <p className="text-[#94a3b8] text-xs sm:text-sm">{client.description}</p>
-                  </AnimatedCard>
-                </ScrollReveal>
-              ))}
-            </div>
-          </div>
-
           {/* First Row - 3 Cards */}
           <div className="flex justify-center mb-6 sm:mb-8">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6 max-w-3xl">
@@ -237,6 +218,27 @@ export default function Home({ onNavigate }: HomeProps) {
               ))}
             </div>
           </div>
+
+          {/* Second Row - 2 Cards Centered */}
+          <div className="flex justify-center">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 max-w-3xl">
+              {clients.slice(3).map((client, index) => (
+                <ScrollReveal key={index + 3} direction="up" delay={(index + 3) * 100} duration={0.6}>
+                  <AnimatedCard
+                    index={index + 3}
+                    hoverEffect="lift"
+                    className="rounded-2xl p-4 sm:p-6 shadow-[0_4px_20px_rgba(0,0,0,0.2)] h-full border border-[#334155] hover:border-[#2563eb] neon-glow"
+                  >
+                    <client.icon className="text-[#2563eb] mb-3 sm:mb-4" size={isMobile ? 24 : 32} />
+                    <h3 className="text-lg sm:text-xl font-bold text-[#f1f5f9] mb-2">{client.title}</h3>
+                    <p className="text-[#94a3b8] text-xs sm:text-sm">{client.description}</p>
+                  </AnimatedCard>
+                </ScrollReveal>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* Enhanced Stats Section */}
       <section className="py-16 sm:py-20 bg-[#0d1117]">
