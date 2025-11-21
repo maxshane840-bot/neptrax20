@@ -172,7 +172,7 @@ export default function Home({ onNavigate }: HomeProps) {
                   <motion.img
                     src="/brand logo/vercel.png"
                     alt="Vercel"
-                    className="h-8 sm:h-10 md:h-14 filter brightness-0 saturate-0 hover:scale-110 transition-transform duration-300"
+                    className="h-10 sm:h-10 md:h-14 filter brightness-0 saturate-0 hover:scale-110 transition-transform duration-300"
                     style={{ filter: 'brightness(0) saturate(100%) invert(1) sepia(1) saturate(0.5) hue-rotate(200deg) brightness(0.9)' }}
                     whileHover={{ scale: 1.1 }}
                   />
